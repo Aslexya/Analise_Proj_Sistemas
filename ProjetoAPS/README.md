@@ -3,10 +3,10 @@
 ## 5W - Estrutura do Projeto
 
 ### 🔍 **WHAT** (O Quê?)
-Este projeto é um trabalho acadêmico da disciplina **Engenharia de Software** da Universidade de Brasília (UnB/UDF). Ele consiste em uma análise e desenvolvimento de um sistema que aplica princípios e boas práticas da engenharia de software.
+Este projeto é um trabalho acadêmico da disciplina **Engenharia de Software** da Universidade do Distrito Federal (UDF). Ele consiste em uma análise e desenvolvimento de um sistema que aplica princípios e boas práticas da engenharia de software.
 
 ### 👥 **WHO** (Quem?)
-- **Desenvolvedor(es):** Kadidjah
+- **Desenvolvedor(es):** Renan Akira, Fernando Rebouças, Paulo Santos Azevedo
 - **Instituição:** Centro Universitário UDF 
 - **Disciplina:** Engenharia de Software
 
@@ -15,7 +15,7 @@ Este projeto é um trabalho acadêmico da disciplina **Engenharia de Software** 
 - **Status:** Em Desenvolvimento
 
 ### 📍 **WHERE** (Onde?)
-- **Localização do Repositório:** [GitHub - Analise_Projeto_Sistemas](https://github.com/Kadidjah/Analise_Projeto_Sistemas)
+- **Localização do Repositório:** [GitHub - Analise_Projeto_Sistemas](https://github.com/Aslexya/Analise_Proj_Sistemas)
 - **Estrutura:** Disponível na pasta `ProjetoAPS`
 
 ### 🎯 **WHY** (Por Quê?)
@@ -108,7 +108,7 @@ Consulte os arquivos de documentação para:
 
 ## 📞 Contato e Suporte
 
-Para dúvidas sobre o projeto, abra uma [issue](https://github.com/Kadidjah/Analise_Projeto_Sistemas/issues) no repositório.
+Para dúvidas sobre o projeto, abra uma [issue](https://github.com/Aslexya/Analise_Proj_Sistemas/issues) no repositório.
 
 ---
 
