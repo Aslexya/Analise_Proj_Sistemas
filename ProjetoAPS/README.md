@@ -56,10 +56,10 @@ ProjetoAPS/
 ### Instalação
 ```bash
 # Clone o repositório
-git clone https://github.com/Kadidjah/Analise_Projeto_Sistemas.git
+git clone https://github.com/Aslexya/Analise_Proj_Sistemas.git
 
 # Navegue até o projeto
-cd Analise_Projeto_Sistemas/ProjetoAPS
+cd Analise_Proj_Sistemas/ProjetoAPS
 ```
 
 ### Execução
