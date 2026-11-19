@@ -52,7 +52,7 @@ Ajudará na organização, tanto dos funcionários e da empresa em si quanto dos
 
 **Resposta:**
 
-Os clientes, funcionários e empresas que trabalham na área da culinária. 
+Empresas que trabalham na área da culinária, junto a seus clientes e funcionários. 
 
 ---
 
