@@ -52,7 +52,7 @@ Ajudará na organização, tanto dos funcionários e da empresa em si quanto dos
 
 **Resposta:**
 
-Os clientes, funcionários e a empresa
+Os clientes, funcionários e empresas que trabalham na área da culinária. 
 
 ---
 
@@ -86,7 +86,7 @@ Utilize como referência:
 
 **Objetivo:**
 
-> Preencher aqui.
+> Nosso projeto pretende facilitar o processo de criar e registrar reservas em restaurantes para que a o processo de criação de reservas para nossos clientes seja facilitada.
 
 ---
 
