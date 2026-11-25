@@ -1,0 +1,31 @@
+@startuml diagrama-casos-de-uso-reservafacil
+left to right direction
+skinparam packageStyle rectangle
+
+actor "Cliente" as cli
+actor "Administrador /\nFuncionário" as adm
+
+rectangle "Sistema ReservaFácil — Reserva de Mesas Online" {
+  usecase "UC01: Cadastrar Usuário" as UC01
+  usecase "UC02: Consultar Disponibilidade" as UC02
+  usecase "UC03: Agendar e Confirmar Reserva" as UC03
+  usecase "UC04: Solicitar Reserva Especial" as UC04
+  usecase "UC05: Entrar na Fila de Espera" as UC05
+  usecase "UC06: Cancelar Reserva" as UC06
+  usecase "UC07: Cadastrar e Gerenciar Mesas" as UC07
+  usecase "UC08: Registrar Check-in e Check-out" as UC08
+
+  UC03 ..> UC02 : <<include>>
+  UC04 ..> UC03 : <<extend>>
+  UC05 ..> UC03 : <<extend>>
+}
+
+cli -- UC01
+cli -- UC02
+cli -- UC03
+cli -- UC06
+
+UC05 -- adm
+UC07 -- adm
+UC08 -- adm
+@enduml
