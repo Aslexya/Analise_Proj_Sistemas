@@ -1,0 +1,39 @@
+@startuml diagrama-objetos-reserva
+title Diagrama de Objetos — Cenário de Reserva Confirmada (ReservaFácil)
+
+object "cliente1 : Cliente" as cliente1 {
+  idUsuario = 104
+  nome = "Lucas Mendes"
+  email = "lucas.mendes@email.com"
+  telefone = "(61) 99812-3456"
+  preferencias = "Área interna / Climatizada"
+}
+
+object "reserva205 : Reserva" as reserva205 {
+  idReserva = 205
+  dataReserva = "14/11/2026"
+  horario = "20:00"
+  qtdPessoas = 4
+  status = "CONFIRMADA"
+  obsEspecial = "Aniversário - mesa próxima à janela"
+}
+
+object "mesa08 : Mesa" as mesa08 {
+  idMesa = 8
+  numeroMesa = "M-08"
+  capacidade = 4
+  localizacao = "Salão Principal - Janela"
+  status = "RESERVADA"
+}
+
+object "admin1 : FuncionarioAdmin" as admin1 {
+  idUsuario = 2
+  nome = "Mariana Costa"
+  matricula = "ADM-012"
+  cargo = "Gerente de Salão"
+}
+
+cliente1 -- reserva205 : realiza
+reserva205 -- mesa08 : aloca
+admin1 -- mesa08 : gerencia
+@enduml

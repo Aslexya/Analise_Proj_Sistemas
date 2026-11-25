@@ -1,0 +1,26 @@
+@startuml diagrama-atividades-reserva
+title Diagrama de Atividades — Solicitação de Reserva de Mesa (ReservaFácil)
+
+|Cliente|
+start
+:Informar data, horário e quantidade de pessoas;
+
+|Sistema ReservaFácil|
+:Validar horário de funcionamento (RN03)\ne buscar mesas disponíveis (RF08);
+
+if (Mesa disponível?) then ([Sim])
+  |Cliente|
+  :Selecionar mesa disponível e informar\nobservação especial (opcional - RF07);
+  :Confirmar solicitação de reserva (RF03);
+
+  |Sistema ReservaFácil|
+  :Bloquear mesa para o horário (RN08)\ne registrar reserva;
+  :Enviar comprovante de confirmação ao cliente;
+else ([Não])
+  |Sistema ReservaFácil|
+  :Incluir cliente na Fila de Espera (RF05 / RN05);
+  :Notificar cliente quando houver liberação de mesa;
+endif
+
+stop
+@enduml
